@@ -1,7 +1,7 @@
 import { flatten } from 'lodash'
 import { Embeddings } from '@langchain/core/embeddings'
 import { Document } from '@langchain/core/documents'
-import { AstraDBVectorStore, AstraLibArgs } from '@langchain/community/vectorstores/astradb'
+import { AstraDBVectorStore, AstraLibArgs } from '@langchain_astradb.AstraDBVectorStore' 
 import { ICommonObject, INode, INodeData, INodeOutputsValue, INodeParams, IndexingResult } from '../../../src/Interface'
 import { getBaseClasses, getCredentialData } from '../../../src/utils'
 import { addMMRInputParams, resolveVectorStoreOrRetriever } from '../VectorStoreUtils'
